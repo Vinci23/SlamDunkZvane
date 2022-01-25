@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A515FCB1-18C6-DB7B-526C-8EF0E39761F6" name="Prodajni_predstavnik">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>90E0F974-8246-C368-812D-A8BBBADCAA39</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<abbreviation>PRP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="e-mail" id="8460215D-1426-285E-44BC-46ED1EA82B04">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>43D46703-3E01-122E-743D-04DFDB66AAE6</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="898336C8-3090-E154-9035-3838B4091243">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>64169F7B-FBB2-A94C-D9AE-A9FA96A13439</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="E913359A-7E91-B88B-8DDF-76CE0A42CE35">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>5C963059-8B5E-9010-E035-8B4EA3A39CCC</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_telefona" id="136BC066-E456-6386-CF37-81068FEFD014">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>18F69674-9A5A-5A1F-632E-6B4697E624EF</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postotak_provizije" id="3CB734E7-0D65-5520-093A-419504CCDC63">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>704772AD-D394-938E-4319-8D38672EF234</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos_prodaje" id="29B2CAD1-D406-9554-84C0-1F3954D4B14C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>84AEF42C-9729-56D8-1E64-93A7C96AD510</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nadzornik" id="40A34C9C-DD5F-9CBF-7F42-13ED051559BA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>72F64A32-A60D-A5B5-9859-A8F0807756BB</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajni_predstavnik_e-mail" id="D20A6F76-F5E1-5734-51A7-534912726718">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>85D11658-7603-A1F0-B715-BBF7A5C48E97</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38C33B71-019F-9FE2-91A7-847BC090740F" referredColumn="8460215D-1426-285E-44BC-46ED1EA82B04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56712E42-0C40-230F-841A-3FAE327718EF" name="Prodajni_predstavnik_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>83E53E5E-B1D1-22FE-7E29-5D524A079D88</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8460215D-1426-285E-44BC-46ED1EA82B04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73691C76-D3E6-D609-4A98-14DA00D2CA8E" name="Prodajni_predstavnik_Prodajni_predstavnik_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>D577DA92-B75B-C52B-C42C-C2AA4087FBBA</generatorID>
+<ownerDesignName>slamDunkZvaneVinci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D20A6F76-F5E1-5734-51A7-534912726718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
